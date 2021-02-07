@@ -1,14 +1,14 @@
 // assigment or atribuição de valores
-nome = "Maria"
+nome = "Maria";
 
 // que tipo de dado foi colocado na variável
 // console.log(typeof name)
 
 // agrupamento de declarações
-let age, isNotABot
+let age, isNotABot;
 
-age = 90
-isNotABot = true
+age = 90;
+isNotABot = true;
 
 // multiplos argumentos na funcao
 // console.log(nome, age, isNotABot)
@@ -36,12 +36,8 @@ console.log(person.nameNew)
 
 // Arrays
 
-const animals = [
-    'Cat',
-    'Dogs',
-    'Parrots'
-]
+const animals = ["Cat", "Dogs", "Parrots"];
 
 // como acessa valores dentro do array?
-console.log(animals[1])
-console.log(animals.length)
+console.log(animals[1]);
+console.log(animals.length);

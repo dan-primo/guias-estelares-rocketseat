@@ -76,13 +76,13 @@ sayMyName()
 //  *this keyword
 
 function Person(name) {
-    this.name = name
-    this.walk = function() {
-        return this.name + " está andando"
-    }
+  this.name = name;
+  this.walk = function () {
+    return this.name + " está andando";
+  };
 }
 
-const dan = new Person("Danie")
-const maria = new Person("João")
-console.log(dan)
-console.log(maria.walk())
+const dan = new Person("Danie");
+const maria = new Person("João");
+console.log(dan);
+console.log(maria.walk());
