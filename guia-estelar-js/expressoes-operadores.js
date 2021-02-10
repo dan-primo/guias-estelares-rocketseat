@@ -54,6 +54,69 @@ console.log(pao || manteiga)
 NOT ! */
 console.log(!pao)
 
+/* ------------------------------------- */
 
+// Operador Condicional (Ternário)
+
+// Dependendendo da condição, nós receberemos valores diferentes
+
+// Condição então valor 1 se não valor 2 se
+// condition ? value1 : value2
+
+let tea = true
+let cake = true
+
+const teatime = tea && cake ? 'nice meal' : 'bad meal'
+
+console.log(teatime)
 
 /* ------------------------------------- */
+
+/* 
+    FALSY
+    Quando um valor é considerado false em contextos onde
+    um booleano é obrigatório (condicionais e loops)
+
+    false
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN
+
+    --------------------------
+
+    TRUTHY
+    Quando um valor é considerado true em contextos onde
+    um booleano é obrigatório (condicionais e loops)
+
+    true
+    {}
+    []
+    1
+    3.23
+    "0"
+    "false"
+    -1
+    Infinity
+    -Infinity
+*/
+
+/* ------------------------------------- */
+
+/* 
+    Operator precedence | Precedencia de operadores
+
+    * grouping                     |  ( )
+    * negação e incremento         |  ! ++ --
+    * multiplicação e divição      |  * /
+    * adição e subtração           |  + -
+    * relacional                   |  < <= >= >
+    * igualdade                    |  == != === !==
+    * AND                          |  &&
+    * OR                           |  ||
+    * condicional                  |  ?:
+    * assignment (atribuição)      |  = += -= *=
+    
+*/
